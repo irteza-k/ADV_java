@@ -24,5 +24,9 @@ public class Queuee {
 
         // size()
         System.out.println(q.size());
+
+        // for traverse
+        while(!q.isEmpty()) {
+        System.out.println(q.poll());
     }
 }
