@@ -43,5 +43,10 @@ public class ArrayLst {
         // clear()
         names.clear();
         System.out.println("After clear() : " + names);
+
+        // For traverse
+        
+        for(String s : names) {
+            System.out.println(s);
     }
 }
