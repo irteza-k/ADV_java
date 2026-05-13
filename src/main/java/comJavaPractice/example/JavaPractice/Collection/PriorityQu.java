@@ -12,13 +12,20 @@ public class PriorityQu {
         // to make it descending order do it
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
+        pq.offer(40);
+        pq.offer(10);
         pq.offer(30);
-        pq.offer(333);
-        pq.offer(21);
+        pq.offer(20);
 
         System.out.println(pq);
 
-        System.out.println(pq.poll());
+        // peek()
+        System.out.println("Top : " + pq.peek());
+
+        // poll()
+        System.out.println("Removed : " + pq.poll());
+
+        System.out.println(pq);
 
     }
 }
