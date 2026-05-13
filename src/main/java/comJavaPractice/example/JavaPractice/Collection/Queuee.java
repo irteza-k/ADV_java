@@ -5,11 +5,24 @@ import java.util.Queue;
 public class Queuee {
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
+ 
 
-        q.offer(10);
-        q.offer(20);
+        // offer()
+        q.offer("A");
+        q.offer("B");
+        q.offer("C");
 
         System.out.println(q);
-        System.out.println(q.poll());
+
+        // peek()
+        System.out.println("Front : " + q.peek());
+
+        // poll()
+        System.out.println("Removed : " + q.poll());
+
+        System.out.println(q);
+
+        // size()
+        System.out.println(q.size());
     }
 }
