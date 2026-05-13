@@ -8,8 +8,18 @@ public class LinkedLst {
 
         LinkedList<String> list = new LinkedList<>();
 
-        list.add("Add");
-        list.add("b");
+        list.add("B");
+        list.add("C");
+
+        list.addFirst("A");
+        list.addLast("D");
+
+        System.out.println(list);
+
+        System.out.println(list.getFirst());
+        System.out.println(list.getLast());
+
+        list.removeFirst();
 
         System.out.println(list);
     }
