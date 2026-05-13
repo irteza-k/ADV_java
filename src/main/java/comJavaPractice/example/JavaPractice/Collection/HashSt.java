@@ -9,5 +9,8 @@ public class HashSt {
         student.put(1,"aaa");
         student.put(2,"asdsad");
         System.out.println(student);
+
+    for(Map.Entry<Integer, String> e : student.entrySet()) {
+    System.out.println(e.getKey() + " " + e.getValue());
     }
 }
