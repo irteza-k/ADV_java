@@ -24,5 +24,9 @@ public class stackk {
 
         // size()
         System.out.println(stack.size());
+
+        // for traverse
+        while(!stack.isEmpty()) {
+        System.out.println(stack.pop());
     }
 }
