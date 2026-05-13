@@ -5,10 +5,24 @@ import java.util.Stack;
 public class stackk {
     public static void main(String[] args) {
 
-        Stack<Integer> stack = new Stack<>();
+         Stack<String> stack = new Stack<>();
 
-        stack.push(22);
-        stack.push(3333);
+        // push()
+        stack.push("Java");
+        stack.push("Python");
+        stack.push("C++");
+
         System.out.println(stack);
+
+        // peek()
+        System.out.println("Top : " + stack.peek());
+
+        // pop()
+        System.out.println("Removed : " + stack.pop());
+
+        System.out.println(stack);
+
+        // size()
+        System.out.println(stack.size());
     }
 }
